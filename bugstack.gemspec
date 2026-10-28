@@ -6,16 +6,17 @@ Gem::Specification.new do |spec|
   spec.name = "bugstack"
   spec.version = Bugstack::VERSION
   spec.authors = ["BugStack"]
-  spec.email = ["team@bugstack.dev"]
+  spec.email = ["support@bugstack.ai"]
 
   spec.summary = "Official BugStack SDK for Ruby"
   spec.description = "Capture, report, and auto-fix production errors with BugStack. " \
                      "Zero runtime dependencies. Framework integrations for Rails, Sinatra, and more."
-  spec.homepage = "https://bugstack.dev"
+  spec.homepage = "https://bugstack.ai"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["documentation_uri"] = "https://bugstack.ai/docs/sdk/ruby"
   spec.metadata["source_code_uri"] = "https://github.com/MasonBachmann7/Bugstack-SDK-Ruby"
   spec.metadata["changelog_uri"] = "https://github.com/MasonBachmann7/Bugstack-SDK-Ruby/blob/main/CHANGELOG.md"
   spec.metadata["bug_tracker_uri"] = "https://github.com/MasonBachmann7/Bugstack-SDK-Ruby/issues"
