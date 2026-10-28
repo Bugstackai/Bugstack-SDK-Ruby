@@ -1,6 +1,6 @@
 # bugstack-ruby
 
-Official Ruby SDK for [BugStack](https://bugstack.dev) — capture, report, and auto-fix production errors.
+Official Ruby SDK for [bugstack](https://bugstack.ai) — capture, report, and auto-fix production errors.
 
 [![Gem Version](https://badge.fury.io/rb/bugstack.svg)](https://rubygems.org/gems/bugstack)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)

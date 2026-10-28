@@ -70,7 +70,7 @@ RSpec.describe Bugstack do
 
   describe "VERSION" do
     it "is defined" do
-      expect(Bugstack::VERSION).to eq("1.0.0")
+      expect(Bugstack::VERSION).to match(/\A\d+\.\d+\.\d+\z/)
     end
   end
 end

@@ -7,7 +7,7 @@ RSpec.describe Bugstack::Configuration do
 
   it "has sensible defaults" do
     expect(config.api_key).to eq("")
-    expect(config.endpoint).to eq("https://api.bugstack.dev/api/capture")
+    expect(config.endpoint).to eq("https://dashboard.bugstack.ai/api/ingest/sdk")
     expect(config.environment).to eq("production")
     expect(config.auto_fix).to be false
     expect(config.enabled).to be true

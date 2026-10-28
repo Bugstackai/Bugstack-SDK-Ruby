@@ -51,7 +51,7 @@ module Bugstack
 
     def initialize
       @api_key = ""
-      @endpoint = "https://api.bugstack.dev/api/capture"
+      @endpoint = "https://dashboard.bugstack.ai/api/ingest/sdk"
       @project_id = ""
       @environment = "production"
       @auto_fix = false
