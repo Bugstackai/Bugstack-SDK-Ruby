@@ -7,7 +7,8 @@ require_relative "bugstack/fingerprint"
 require_relative "bugstack/transport"
 require_relative "bugstack/client"
 
-# BugStack SDK for Ruby — capture, report, and auto-fix production errors.
+# The bugstack SDK for Ruby. Reports uncaught server errors to bugstack,
+# autonomous software maintenance.
 #
 # Usage:
 #   Bugstack.init(api_key: "bs_live_...")
