@@ -1,8 +1,8 @@
 # bugstack-ruby
 
-The [bugstack](https://bugstack.ai) SDK for Ruby: Rails, Sinatra and any Rack app.
+The [Bugstack](https://bugstack.ai) SDK for Ruby: Rails, Sinatra and any Rack app.
 
-bugstack is autonomous software maintenance. It watches your app and your repository, fixes what breaks, and sends every change as a pull request you control. This SDK is how your app tells bugstack about an uncaught server error.
+Bugstack is autonomous software maintenance. It watches your app and your repository, fixes what breaks, and sends every change as a pull request you control. This SDK is how your app tells Bugstack about an uncaught server error.
 
 [![Gem Version](https://badge.fury.io/rb/bugstack.svg)](https://rubygems.org/gems/bugstack)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -101,7 +101,7 @@ Bugstack::Integrations::Generic.install!
 Bugstack.init do |config|
   config.api_key = "bs_live_..."        # Required
   config.environment = "production"     # Default: "production"
-  config.auto_fix = true                # Let bugstack open a fix for errors this SDK reports
+  config.auto_fix = true                # Let Bugstack open a fix for errors this SDK reports
   config.debug = false                  # Log SDK activity
   config.dry_run = false                # Log without sending
   config.enabled = true                 # Kill switch

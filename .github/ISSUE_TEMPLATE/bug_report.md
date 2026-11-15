@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report a bug in the BugStack Ruby SDK
+about: Report a bug in the Bugstack Ruby SDK
 title: "[Bug] "
 labels: bug
 ---

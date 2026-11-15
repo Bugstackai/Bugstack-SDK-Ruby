@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest a feature for the BugStack Ruby SDK
+about: Suggest a feature for the Bugstack Ruby SDK
 title: "[Feature] "
 labels: enhancement
 ---

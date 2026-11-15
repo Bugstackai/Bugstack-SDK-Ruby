@@ -7,7 +7,7 @@ require_relative "bugstack/fingerprint"
 require_relative "bugstack/transport"
 require_relative "bugstack/client"
 
-# The bugstack SDK for Ruby. Reports uncaught server errors to bugstack,
+# The Bugstack SDK for Ruby. Reports uncaught server errors to Bugstack,
 # autonomous software maintenance.
 #
 # Usage:
