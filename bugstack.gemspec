@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["BugStack"]
   spec.email = ["support@bugstack.ai"]
 
-  spec.summary = "The bugstack SDK for Ruby"
-  spec.description = "Reports uncaught server errors from Rails, Sinatra and Rack apps to bugstack, " \
-                     "autonomous software maintenance. bugstack watches your app and your repository, " \
+  spec.summary = "The Bugstack SDK for Ruby"
+  spec.description = "Reports uncaught server errors from Rails, Sinatra and Rack apps to Bugstack, " \
+                     "autonomous software maintenance. Bugstack watches your app and your repository, " \
                      "fixes what breaks, and sends every change as a pull request you control. " \
                      "No runtime dependencies."
   spec.homepage = "https://bugstack.ai"
