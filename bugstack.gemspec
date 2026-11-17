@@ -5,7 +5,7 @@ require_relative "lib/bugstack/version"
 Gem::Specification.new do |spec|
   spec.name = "bugstack"
   spec.version = Bugstack::VERSION
-  spec.authors = ["BugStack"]
+  spec.authors = ["Bugstack"]
   spec.email = ["support@bugstack.ai"]
 
   spec.summary = "The Bugstack SDK for Ruby"
